@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background-color: #DC2A38;
+} 
+h1 {
+    font-family: Inria Sans;
+    text-align: center;
+}
+.img01 {
+    width:400px ;
+    height:300px ;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+}
+.box {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.226);
+    margin: auto ;
+}
+div {
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    height: 100vh;
+}

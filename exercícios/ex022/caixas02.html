@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grouping tags </title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #FEDCEA;
+        }
+        header{
+            background-color:#FEDCEA;
+            padding: 5px;
+            margin: 20px;
+        }
+        article {
+            background-color:#ffffff;
+            padding: 5px ;
+        }
+        main {
+            background-color: rgb(255, 255, 255);
+            padding: 0px;
+            margin: auto;
+            width: 500px;
+            border-radius: 15px;
+            box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.39);
+        }
+        article > aside {
+            background-color: #ffffff;
+        }
+        footer {
+            background-color: #F23D91;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 50px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        nav {
+            text-align:center;
+            background-color:#FEDCEA;
+            color:#F23D91;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.404);
+        }
+            
+        /*horizontal  / vertical / espalhamento ou mais dura*/
+        #pratos {
+            padding: 10px;
+        }
+        #sobremesas {
+            text-align: center;
+            
+        }
+        article > h2 {
+            padding: 5px 10px 10px 5px;
+        }
+       nav > a {
+        color: #F23D91;
+        text-decoration: none;
+        padding: 10px;
+        font-weight: bold;
+        margin-right: 30px;
+       }
+       nav > a:hover {
+        color:#F230AE;
+        text-decoration: underline;
+       }
+       #bola {
+        background-color: white;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.349);
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lays</h1>
+        <nav>
+            <a href="#"> about </a>
+            <a href="#"> menu </a>
+            <a href="#"> home </a>
+            <a href="#"> contacts </a>
+        </nav>
+    </header>
+    <main>
+        <section id="sobremesas">
+    
+        </section>
+        <section id="pratos">
+            <article>
+                <h2> Venha experimentar </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis pariatur nisi modi esse dolorum nesciunt quam, voluptatem quas facere corporis error rem repellat porro ipsam cumque nobis alias magnam amet?
+                </p>
+                <aside>
+                    <h2> Nossas melhores opções</h2>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Lays 
+        </p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>

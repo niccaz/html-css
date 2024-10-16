@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: black;
+        }
+         /* visited vai motra se vc ja visitou */ 
+        a:visited {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+        /* ação ao passar o mouse */
+        a:hover {
+            color: chartreuse;
+            text-decoration: underline;
+        }
+        /* qnd clica a cor aparece */
+        a:active {
+            color: yellow;
+        }
+        a:after {
+            content: ' [link] ';
+            text-decoration: none;
+            font-weight: normal;
+            color: gray;
+        }
+        .especial {
+            background-color: rgba(0, 114, 180, 0.322);
+        }
+        .especial:before {
+            content: '→';
+        }
+    </style>
+</head>
+<body>
+    <h1> Personalisando Links </h1>
+    <ul>
+        <li><a href="https://youtu.be/cyW2ajAVyfA?si=8Ky6yFwRpNwOADTn" target="_blank">nightcore</a> </li>
+        <li> <a href="https://youtu.be/u_wLt2PPuCo?si=APjD_J-ZMkonlcEj" class="especial">wotakoi</a></li>
+        <li> <a href="https://youtu.be/3jNfUAj8lYo?si=3gADA_qyddj0z2F0">bailando</a></li>
+    </ul>
+    
+</body>
+</html>
